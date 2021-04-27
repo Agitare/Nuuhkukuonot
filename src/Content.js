@@ -4,10 +4,10 @@ const Content = (props) => {
 
   return (
     <main>
-      <div id="card">
-        <h3>{props.title}</h3>
+      <div className="kuonot" id="card">
+        <h3 className="title">{props.title}</h3>
 
-        <img src={props.pic} alt={props.title}></img>
+        <img className="image" src={props.pic} alt={props.title}></img>
       </div>
     </main>
   );
